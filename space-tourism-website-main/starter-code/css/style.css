@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h4, p{
+    color: white;
+}
+h1{
+    font-weight: 100;
+    font-size: 160px; 
+}
+h4{
+    font-size: 40px;
+}
+p{
+    font-size: 22px;
+    line-height: 1.5;
+    opacity: 0.5;
+}
+
+#container
+{
+    background-image:url(/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 0 ;
+    align-items: center;
+}
+
+#logo img
+{
+    width: 40px;
+    margin-left: 30px;
+}
+#menu
+{
+    display: flex;
+    padding:20px 80px 20px 30px;
+    opacity: 0.8;
+    background-color: rgba(11, 0, 0,0.2);
+    
+}
+#menu li
+{
+    list-style: none;
+    padding-right: 50px;
+    padding: 20px 80px 20px 30px;
+}
+#menu li a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#menu li:hover{
+    border-bottom: 3px solid white;
+}
+#menu li:nth-child(1){
+    border-bottom: 3px solid white;
+}
+#content
+{
+
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#info{
+    width: 30%;
+    padding-left: 170px;
+    padding-top: 200px;
+}
+#info h4 {
+    font-size: 35px;
+    font-weight: 10065}
+#info h1{
+    font-weight: 100;
+    font-size: 160px;
+    padding-bottom: 40px;
+}
+#info p{
+    font-size: 20px;
+    line-height: 1.5;
+    opacity: 0.5;
+}
+hr
+{
+    width: 650px;
+}
+#boton{
+    padding-top: 380px;
+    width: 40%;
+    margin-left: 400px;
+}
+button{
+    font-size: 35px;
+    border-radius: 70%;
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    border:none;
+    margin-left: 144px;
+}
